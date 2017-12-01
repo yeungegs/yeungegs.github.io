@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik|Raleway|Libre+Franklin");
+@import url("https://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css");
+::selection {
+  color: #FFF;
+  background: #B2B9BD;
+}
+
+::-moz-selection {
+  color: #FFF;
+  background: #B2B9BD;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: "Libre Franklin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url(http://imgh.us/bg_1.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 9;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+a {
+  color: #B2B9BD;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: #2E3532;
+}
+
+.card {
+  height: 320px;
+  width: 427px;
+  overflow: hidden;
+  box-shadow: 0px 0px 43px -10px black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card .flip {
+  transition: all 0.5s ease-in-out;
+}
+.card .front {
+  z-index: 11;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0px 0px 33px -1px rgba(0, 0, 0, 0.45);
+  transform: scale(1);
+  transition: all 0.6s ease-in-out;
+}
+.card .front .top {
+  height: 50%;
+  background: #B2B9BD;
+}
+.card .front .top:after {
+  position: absolute;
+  content: "";
+  pointer-events: none;
+}
+.card .front .top .logo {
+  display: inline-block;
+  background: #2E3532;
+  z-index: 11;
+  color: #FFF;
+  padding: 0.16em;
+  border: 8px solid #fff;
+  position: relative;
+  pointer-events: none;
+  transform: translate(-50%, 0);
+  left: 50%;
+  margin-top: 0.4em;
+  font-size: 4em;
+}
+.card .front .top .logo .fatty {
+  font-weight: 800;
+}
+.card .front .top .logo .skinny {
+  font-weight: 100;
+}
+.card .front .intro {
+  margin-top: 2.4em;
+  transform: translateY(0);
+  z-index: 8;
+}
+.card .front .name {
+  color: #2E3532;
+  font-weight: 400;
+  font-size: 3.2em;
+  text-align: center;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+.card .front .name:after {
+  content: "";
+  position: absolute;
+  top: 1.3em;
+  width: 20%;
+  left: 40%;
+  right: 40%;
+  height: 1px;
+  background: #B2B9BD;
+}
+.card .front .desc {
+  text-align: center;
+  color: #B2B9BD;
+  font-family: "Old Standard TT", Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.card .front .contact {
+  color: #B2B9BD;
+  margin-left: 1.7em;
+  font-weight: 300;
+  font-size: 1.6em;
+  transform: translateY(400%);
+}
+.card .front .contact span {
+  color: #2D3244;
+  font-size: 1.7em;
+  width: 1.3em;
+  display: inline-block;
+}
+.card .front .contact a {
+  position: relative;
+  bottom: 0.24em;
+}
+.card .back {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.tooltip {
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: italic;
+  padding: 0.4em;
+  background: #2E3532;
+}
+
+/* HOVER ANIMATIONS */
+.front .top .logo,
+.front .top,
+.front .top:after,
+.front .intro,
+.front .contact {
+  transition: all 0.7s ease-in-out;
+}
+
+.flip:hover .front .top .logo {
+  margin-top: 0.28em;
+  font-size: 1.3em;
+  border: 3px solid #fff;
+  margin-left: 0.28em;
+  transform: translateX(0);
+  left: 0;
+}
+
+.flip:hover .front .top {
+  height: 15%;
+}
+.flip:hover .front .top:after {
+  width: 1.5em;
+  height: 1.5em;
+  bottom: 16.3em;
+}
+
+.flip:hover .front .intro {
+  transform: translateY(500%);
+}
+
+.flip:hover .front .contact {
+  transform: translateY(-52%);
+}
