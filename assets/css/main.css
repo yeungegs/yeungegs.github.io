@@ -1938,8 +1938,8 @@
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 		border-style: solid;
-		border-color: white;
-		border-width: 10px;	
+		border-color:#41484c;
+		border-width: .1em;	
 	}
 
 		.item header {
@@ -1952,7 +1952,7 @@
 
 			.item header h3 {
 				font-size: 1em;
-				color: #222629;
+				color: #41484c;
 			}
 	.description {
 		/* box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05); */
