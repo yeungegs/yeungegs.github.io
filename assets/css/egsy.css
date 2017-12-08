@@ -1,0 +1,13 @@
+section, article, h3 { 
+    margin-top: .5em;
+}
+section, article, div {
+    margin-bottom: 1em;
+}
+
+/* apply formatting to all images inside portfolio thumbnails  */
+
+.item img {
+    position: relative;
+    width: 80%;
+}
