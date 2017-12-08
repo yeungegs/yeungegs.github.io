@@ -15,7 +15,8 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-fs-modal.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="assets/css/egsy.css" />
 
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -35,6 +36,7 @@
 		</div>
 
 		<!-- Nav -->
+<!-- TODO disappearing nav bar in mobile view? -->
 		<nav id="nav">
 		    <!--
 			Prologue's nav expects links in one of two formats:
@@ -105,149 +107,147 @@
 	    <section id="portfolio" class="three">
 		<div class="container">
 		    <header>
-			<h2>Portfolio</h2>
-		    <h3>End of year project</h3>
+			<h1>Portfolio</h1>
+			<h3>
+			    End of year project
+			</h3>
 			</header>
 			<div class="row">
 				<div class="4u 12u$(mobile)">
 					<article class="item">
-					    <img src="images/choosingdocker.png" data-toggle="modal" alt="" class="image fit" data-target="#EOY1" />
+					    <img src="images/choosingdocker.png" data-toggle="modal" alt="" data-target="#EOY1" />
 					</article>
 				</div>
 				<div class="4u 12u$(mobile)">
 					<article class="item">
-					    <img src="images/lifechanging.png" data-toggle="modal" alt="" class="image fit" data-target="#EOY2" />
+					    <img src="images/lifechanging.png" data-toggle="modal" alt="" data-target="#EOY2" />
 					</article>
 				</div>
 				<div class="4u 12u$(mobile)">
 					<article class="item">
-					    <img src="images/pic08.jpg" data-toggle="modal" alt="" class="image fit" data-target="#EOY3" />
+					    <img src="images/pic08.jpg" data-toggle="modal" alt="" data-target="#EOY3" />
 					</article>
 				</div>
 			</div>
 			<div class="row">
 				<div class="6u 12u$(mobile)">
 					<article class="item">
-						<img src="images/EOYvideo.png" alt="" data-toggle="modal" alt="" class="image fit" data-target="#EOY4"/></a>
+						<img src="images/EOYvideo.png" alt="" data-toggle="modal" alt="" data-target="#EOY4"/></a>
 					</article>
 				</div>
 				<div class="6u 12u$(mobile)">
 				    <article class="item">
-					<img src="images/pic08.jpg" alt="" data-toggle="modal" alt="" class="image fit" data-target="#EOY5"/></a>
+					<img src="images/pic08.jpg" alt="" data-toggle="modal" alt="" data-target="#EOY5"/></a>
 				    </article>
 
 				</div>
 			</div>
-			<header><h3>Technical essays</h3></header>
+
+			<h3>
+			    Technical essays
+			</h3>
 			<div class="row">
-				<div class="4u 12u$(mobile)">
-					<article class="item">
-						<a href="http://bit.ly/linuxarticle" target="_blank" class="image fit"><img src="images/linuxarticle.png" alt="" /></a>
-						<header>
-							<h3>Linux.com article investigating what happens when we set k=k++ (co-written with Naomi Sorrell)</h3>
-						</header>
-					</article>
-				</div>
-				<div class="4u 12u$(mobile)">
-						<article class="item">
-						<a href="http://bit.ly/gccsteps" target="_blank" class="image fit"><img src="images/compilation.png" alt="" /></a>
-						<header>
-							<h3>School essay about the four stages of compilation in C programming</h3>
-						</header>
-						</article>
-				</div>
-				<div class="4u 12u$(mobile)">
-					<article class="item">
-						<a href="http://bit.ly/githubtips" target="_blank" class="image fit"><img src="images/githubtips.png" alt="" /></a>
-						<header>
-							<h3>Practical tips for new users to Github, specifically written with Holberton School zero day in mind</h3>
-						</header>
-					</article>
-				</div>
+			    <div class="4u 12u$(mobile)">
+				<article class="item">
+				    <img src="images/linuxarticle.png" alt="" data-toggle="modal" alt="" data-target="#tech1"/></a>
+				</article>
+			    </div>
+			    <div class="4u 12u$(mobile)">
+				<article class="item">
+				    <img src="images/compilation.png" alt=""  data-toggle="modal" alt=""  data-target="#tech2"/>
+				</article>
+			    </div>
+			    <div class="4u 12u$(mobile)">
+				<article class="item">
+				    <img src="images/githubtips.png" alt="" data-toggle="modal" data-target="#tech3"/></a>
+				</article>
+			    </div>
 			</div>
-			<header>hey</header>
-			<div class="row">
-				<div class="6u 12u$(mobile)">
-					<article class="item">
-					<a href="http://bit.ly/2hJtJ3i" target="_blank" class="image fit"><img src="images/printf.png" alt="" /></a>
-					<header>
-						<h3>README for printf group project with a Game of Thrones twist</h3>
-					</header>
-					</article>
-				</div>
-				<div class="4u 12u$(mobile)">
-					<article class="item">
-						<a href="http://bit.ly/2hJtPIc" target="_blank" class="image fit"><img src="images/scarjoshell.png" alt="" /></a>
-					<header>
-						<h3>README for ScarJo simple shell - UNIX command line interpreter</h3>
-						:) <a href="https://twitter.com/egsy/status/915832870140182528" target="_blank">1</a>  <a href="https://twitter.com/srinitude/status/887505744123187200" target="_blank">2</a>
-					</header>
-					</article>
-				</div>
+			<h3>
+			    Project readmes
+			</h3>
+			<div class="row" >
+			    <div class="3u 12u$(mobile)">
+				<article class="item"  data-toggle="modal" data-target="#readme1">
+				    <img src="images/printf.png" alt=""/>
+				</article>
+			    </div>
+			    <div class="3u 12u$(mobile)">
+				<article class="item" data-toggle="modal" data-target="#readme2" >
+				    <img src="images/scarjoshell.png" alt=""/>
+				</article>
+			    </div>
+			    <div class="3u 12u$(mobile)">
+				<article class="item" data-toggle="modal" data-target="#readme3">
+				    <img src="https://img.shields.io/badge/EGSY.MD-PASSING-lightgrey.svg?style=flat-square&colorB=635274&colorA=C1C9C8)" />
+				</article>
+			    </div>
+			    <div class="3u 12u$(mobile)">
+				<article class="item" data-target="#readme4" data-toggle="modal">
+				</article>
+			    </div>
 			</div>
-			<header><h3>More</h3></header>
+			<h3>
+			    More
+			</h3>
 			<div class="row">
-				<div class="6u 12u$(mobile)">
-					<article class="item">
-						<header>
-							<h3>Essay written for my Holberton School application (pretty crazy how much I've learned in one year!)</li></h3>
-						</header>
-						<a href="http://bit.ly/2mEWFes" data-toggle="modal" data-target="#modalLarge" class="image fit"><img src="images/application.png" alt="" /></a>
-					</article>
-				</div>
-				<div class="6u 12u$(mobile)">
-					<article class="item">
-					<header>
-						<h3>Interview with theCube during Linux Open Source Summit in Los Angeles</h3>
-					</header>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/PZeciTItz_w?rel=0" frameborder="0" allowfullscreen class="image fit"></iframe>
-					</article>
-				</div>
-				<div class="12u 12u$(mobile)">
-					<article class="item">
-					<header>
-						<h3> Rap about bash scripts</a> performed for Holberton School’s Battle of the Programming Languages</h3>
-					</header>
-					<a href="http://bit.ly/2xvLLwb" target="_blank" class="image fit"><img src="images/bashrap.png" alt="" /></a>
-					</article>
-				</div>
-				<div class="12u 12u$(mobile)">
-					<a class="twitter-moment" data-lang="en" data-dnt="true" href="https://twitter.com/i/moments/907342601229033473?ref_src=twsrc%5Etfw" data-limit="1" id="linus">Holberton School ❤️ Linux</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-				</div>
+			    <div class="6u 12u$(mobile)">
+				<article class="item" data-toggle="modal" data-target="#more1">
+				    <img src="images/application.png" alt="" />
+				</article>
+			    </div>
+			    <div class="6u 12u$(mobile)">
+				<article class="item" data-toggle="modal" data-target="#more2">
+				    <img src="images/cubeinterview.png" alt"" />
+				</article>
+			    </div>
+			    <div class="6u 12u$(mobile)">
+				<article class="item" data-toggle="modal" data-target="#more3">
+				    <header>
+					<h3> Rap about bash scripts</a> performed for Holberton School’s Battle of the Programming Languages</h3>
+				    </header>
+				    <a href="http://bit.ly/2xvLLwb" target="_blank" class=""><img src="images/bashrap.png" alt="" /></a>
+				</article>
+			    </div>
+			    <div class="6u 12u$(mobile)">
+				<article class="item" data-toggle="modal" data-target="#more4" id="linus">
+				    meeting linus
+				</article>				    
+			    </div>
 			</div>
 
 		</div>
 	<!-- modal buttons  -->
-		<div class="row">
-            <div class="col-md-3">
-                <p>
-                    <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalLarge">
-                        Large Demo Modal
-                    </button>
-                </p>
-            </div>
-            <div class="col-md-3">
-                <p>
-                    <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalSmall">
-                        Small Demo Modal
-                    </button>
-                </p>
-            </div>
-            <div class="col-md-3">
-                <p>
-                    <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalIconButtons">
-                        Modal With Icon Buttons
-                    </button>
-                </p>
-            </div>
-            <div class="col-md-3">
-                <p>
-                    <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalBottom">
-                        Modal With Bottom Buttons
-                    </button>
-                </p>
-            </div>
-        </div>
+		<!-- <div class="row">
+		     <div class="col-md-3">
+                     <p>
+                     <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalLarge">
+                     Large Demo Modal
+                     </button>
+                     </p>
+		     </div>
+		     <div class="col-md-3">
+                     <p>
+                     <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalSmall">
+                     Small Demo Modal
+                     </button>
+                     </p>
+		     </div>
+		     <div class="col-md-3">
+                     <p>
+                     <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalIconButtons">
+                     Modal With Icon Buttons
+                     </button>
+                     </p>
+		     </div>
+		     <div class="col-md-3">
+                     <p>
+                     <button type="button" class="btn btn-block" data-toggle="modal" data-target="#modalBottom">
+                     Modal With Bottom Buttons
+                     </button>
+                     </p>
+		     </div>
+		     </div> -->
 		
 	    </section>
 
@@ -308,7 +308,7 @@
 					</div>
 					<div class="modal-body">
 						<p>
-						    <a href="http://bit.ly/2zNNbCy"  target="_blank" class="image fit"><img src="images/lifechanging.png" alt="" data-toggle="modal" data-target="#EOY2" class="image fit"/></a>
+						    <a href="http://bit.ly/2zNNbCy"  target="_blank" class=""><img src="images/lifechanging.png" alt="" data-toggle="modal" data-target="#EOY2" class=""/></a>
 						</p>
 						<p>
 						    Second post continues explanation and explains how to pull my docker image
@@ -358,7 +358,7 @@
 					    <header>
 						EOY Project Presentation - Friday, Nov 10 2017
 					    </header>
-					    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7kCO2TZgT8" frameborder="0" allowfullscreen class="image fit"></iframe>
+					    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7kCO2TZgT8" frameborder="0" allowfullscreen class=""></iframe>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -399,37 +399,289 @@
 			</div>
 		</div>
 
-		
-	<!-- modal template -->
-		<div class="modal fade" id="" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		<!-- technical writing -->
+		<div class="modal fade" id="tech1" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
 						<h5 class="modal-title" id="modalSmallLabel">
-						    <!-- EOY Project Presentation - Friday, Nov 10 2017 -->
+						    Linux.com article investigating what happens when we set k=k++ (co-written with Naomi Sorrell)
 						</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						    <span aria-hidden="true">&times;</span>
 						</button>
 					</div>
 					<div class="modal-body">
-					    <header>
-						<!-- EOY Project Presentation - Friday, Nov 10 2017 -->
-					    </header>
-					    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7kCO2TZgT8" frameborder="0" allowfullscreen class="image fit"></iframe> -->
+					    <a href="http://bit.ly/linuxarticle" target="_blank">link to article</a>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">
-						    Close
-						</button>
-						<button type="button"class="btn btn-default">
-						    <span class="d-none d-md-inline">Details</span>
-						    <i class="d-md-none material-icons">info</i>
-						</button>
+					    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+						Close
+					    </button>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="modal fade" id="tech2" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+				<div class="modal-header">
+				    <h5 class="modal-title" id="modalSmallLabel">
+					School essay about the four stages of compilation in C programming
+				    </h5>
+				    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				    </button>
+				</div>
+				<div class="modal-body">
+				    <a href="http://bit.ly/gccsteps" target="_blank" class="">Link to gcc steps of compilation</a>
+				</div>
+				<div class="modal-footer">
+				    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+					Close
+				    </button>
+				</div>
+			    </div>
+			</div>
+		</div>
+		<div class="modal fade" id="tech3" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    Practical tips for new users to Github, specifically written with Holberton School zero day in mind
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				<a href="http://bit.ly/githubtips" target="_blank" class="">link to github tips article</a>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+
+		<!-- readmes -->
+		<div class="modal fade" id="readme1" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				<a href="http://bit.ly/2hJtJ3i" target="_blank" class=""></a>
+				<header>
+				    <h3>README for printf group project with a Game of Thrones twist</h3>
+				</header>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		<div class="modal fade" id="readme2" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    README for ScarJo simple shell - UNIX command line interpreter
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				    <a href="http://bit.ly/2hJtPIc" target="_blank">Link to repo</a>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		<div class="modal fade" id="readme3" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    My love for well-written readmes is well known among my peers
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is the best README I&#39;ve ever created <a href="https://twitter.com/holbertonschool?ref_src=twsrc%5Etfw">@holbertonschool</a>. <a href="https://twitter.com/egsy?ref_src=twsrc%5Etfw">@egsy</a> would be proud!<a href="https://t.co/kYCVQi6Ach">https://t.co/kYCVQi6Ach</a></p>&mdash; Kiren Srinivasan 🚀 (@srinitude) <a href="https://twitter.com/srinitude/status/887505744123187200?ref_src=twsrc%5Etfw">July 19, 2017</a></blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">thanks <a href="https://twitter.com/canofmisosoup?ref_src=twsrc%5Etfw">@canofmisosoup</a> <a href="https://twitter.com/srinitude?ref_src=twsrc%5Etfw">@srinitude</a> for the commit message shout out~📣🙌 <br>ya&#39;ll know I ❤️ a well-formatted README! and the gifs with logo are 👌 <a href="https://t.co/vrdw5aIvaX">pic.twitter.com/vrdw5aIvaX</a></p>&mdash; Elaine Y (@egsy) <a href="https://twitter.com/egsy/status/915832870140182528?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		<div class="modal fade" id="readme4" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    readme4
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+
+		<!-- more -->
+		<div class="modal fade" id="more1" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    more1
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				    Essay written for my Holberton School application (pretty crazy how much I've learned in one year!)
+				<a href="http://bit.ly/2mEWFes" class=""></a>
+
+
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		<div class="modal fade" id="more2" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    Interview with theCube during Linux Open Source Summit in Los Angeles
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+					<iframe width="100%"  src="https://www.youtube.com/embed/PZeciTItz_w?rel=0" frameborder="0" allowfullscreen ></iframe>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		<div class="modal fade" id="more3" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    Practical tips for new users to Github, specifically written with Holberton School zero day in mind
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				<a href="http://bit.ly/githubtips" target="_blank" class="">link to github tips article</a>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		<div class="modal fade" id="more4" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    During Linux Foundation Open Source Summit I gave Linus Torvalds a shirt from my school!
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				<a class="twitter-moment" data-lang="en" data-dnt="true" href="https://twitter.com/i/moments/907342601229033473?ref_src=twsrc%5Etfw" data-limit="">Holberton School ❤️ Linux</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+
+
+
+		
+	<!-- modal template -->
+		<div class="modal fade" id="tech3" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		    <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			    <div class="modal-header">
+				<h5 class="modal-title" id="modalSmallLabel">
+				    Practical tips for new users to Github, specifically written with Holberton School zero day in mind
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				    <span aria-hidden="true">&times;</span>
+				</button>
+			    </div>
+			    <div class="modal-body">
+				<a href="http://bit.ly/githubtips" target="_blank" class="">link to github tips article</a>
+			    </div>
+			    <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">
+				    Close
+				</button>
+			    </div>
+			</div>
+		    </div>
+		</div>
+
 
 		<!-- 
 		     <div class="modal fade modal-fullscreen" id="modalSmall" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
@@ -531,17 +783,17 @@
 		     </div>
 		     </div>		 -->
 
-	<!-- Scripts -->
-	    <script src="assets/js/jquery.min.js"></script>
-	    <script src="assets/js/jquery.scrolly.min.js"></script>
-	    <script src="assets/js/jquery.scrollzer.min.js"></script>
-	    <script src="assets/js/skel.min.js"></script>
-	    <script src="assets/js/util.js"></script>
-	    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
     	<script>
         $(function() {
