@@ -6,6 +6,11 @@ section, article, div {
 }
 
 /* apply formatting to all images inside portfolio thumbnails  */
+.item {
+
+	border-color:#41484c;
+	border-width: .1em;	
+}
 
 .item img {
     position: relative;
