@@ -18,3 +18,28 @@ section, article, div {
     position: relative;
     width: 95%;
 }
+
+.square {
+ 	border-style: solid;
+	border-color: rgba(0,0,0,0.05)
+	border-width: .1em;	
+    position:relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+    .square img {
+        position:absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: auto;
+        -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+    }
+    
+    .square img.portrait {
+        width: 100%;
+        height: auto;
+    }
