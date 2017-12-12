@@ -11,8 +11,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- [if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif] -->
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="assets/css/cardstyle.css">
-	<link rel="stylesheet" href="assets/css/bootstrap-fs-modal.min.css">
+	<!-- <link rel="stylesheet" href="assets/css/cardstyle.css"> -->
+	<!-- <link rel="stylesheet" href="assets/css/bootstrap-fs-modal.min.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -120,30 +120,30 @@
 			</header>
 			<div class="row">
 				<div class="4u 12u$(mobile)">
-					<article class="item">
-					    <img src="images/choosingdocker.png" data-toggle="modal" alt="" data-target="#EOY1" />
+					<article class="item" data-toggle="modal" data-target="#EOY1" >
+					    <img src="images/choosingdocker.png" alt=""/>
 					</article>
 				</div>
 				<div class="4u 12u$(mobile)">
-					<article class="item">
-					    <img src="images/lifechanging.png" data-toggle="modal" alt="" data-target="#EOY2" />
+					<article class="item" data-toggle="modal" data-target="#EOY2">
+					    <img src="images/lifechanging.png" alt="" />
 					</article>
 				</div>
 				<div class="4u 12u$(mobile)">
-					<article class="item">
-					    <img src="images/pic08.jpg" data-toggle="modal" alt="" data-target="#EOY3" />
+					<article class="item" data-toggle="modal" data-target="#EOY3">
+					    <img src="images/pic08.jpg" alt=""/>
 					</article>
 				</div>
 			</div>
 			<div class="row">
 				<div class="6u 12u$(mobile)">
-					<article class="item">
-						<img src="images/EOYvideo.png" alt="" data-toggle="modal" alt="" data-target="#EOY4"/></a>
+					<article class="item" data-toggle="modal" data-target="#EOY4">
+						<img src="images/EOYvideo.png" alt="" />
 					</article>
 				</div>
 				<div class="6u 12u$(mobile)">
-				    <article class="item">
-					<img src="images/pic08.jpg" alt="" data-toggle="modal" alt="" data-target="#EOY5"/></a>
+				    <article class="item" data-toggle="modal" data-target="#EOY5">
+					<img src="images/pic08.jpg" alt="" />
 				    </article>
 
 				</div>
@@ -154,18 +154,18 @@
 			</h3>
 			<div class="row">
 			    <div class="4u 12u$(mobile)">
-				<article class="item">
-				    <img src="images/linuxarticle.png" alt="" data-toggle="modal" alt="" data-target="#tech1"/></a>
+				<article class="item" data-toggle="modal" data-target="#tech1">
+				    <img src="images/linuxarticle.png" alt=""/>
 				</article>
 			    </div>
 			    <div class="4u 12u$(mobile)">
-				<article class="item">
-				    <img src="images/compilation.png" alt=""  data-toggle="modal" alt=""  data-target="#tech2"/>
+				<article class="item" data-toggle="modal" data-target="#tech2">
+				    <img src="images/compilation.png" alt=""/>
 				</article>
 			    </div>
 			    <div class="4u 12u$(mobile)">
-				<article class="item">
-				    <img src="images/githubtips.png" alt="" data-toggle="modal" data-target="#tech3"/></a>
+				<article class="item" data-toggle="modal" data-target="#tech3">
+				    <img src="images/githubtips.png" alt=""/>
 				</article>
 			    </div>
 			</div>
@@ -273,33 +273,37 @@
 		</div>
 	<!-- dialog - gallery item descriptions hidden until event -->
 		<!-- EOY project -->
-		<div class="modal fade" id="EOY1" tabindex="-1" role="dialog" aria-labelledby="modalSmallLabel" aria-hidden="true">
+		<div class="modal fade modal-fullscreen" id="EOY1" tabindex="-1" role="dialog" aria-labelledby="modalLargeLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="modalSmallLabel">EOY article 1</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-						</button>
+						<h5 class="modal-title" id="modalLargeLabel">EOY article 1</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>					
 					</div>
 					<div class="modal-body">
 						<p>
-						    
-								First post in a series accompanying my end of year project - explains why Docker was an ideal solution to my problem
+							hey
+						</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed dui tempor, finibus ligula vitae, convallis mi. Sed posuere
+                            at neque nec hendrerit. Sed vitae felis gravida, ultricies dui eget, venenatis leo. Nunc hendrerit tellus
+                            non velit malesuada, eu dapibus sapien placerat. Sed non viverra magna, sit amet ornare erat. Fusce eros
+                            mi, consequat ac elit vel, ullamcorper molestie mauris. Proin auctor orci eget lacinia condimentum. Phasellus
+                            ultricies ligula id lacinia posuere. Nulla rutrum eros eu arcu tempor, imperdiet ornare lectus convallis.
+                            Nulla eleifend dapibus sem, vel viverra sapien.
+                        </p>
+						
+						<p>
+							First post in a series accompanying my end of year project - explains why Docker was an ideal solution to my problem
 						</p>
 						<p>
 						    <a href="http://bit.ly/2ARezgh">link to article</a>
 						</p>
-						<p>
-						    In this example, <i>Reload</i> and <i>Save</i> buttons use Font Awesome icons, and <i>Info</i> is a Google Material icon.
-						</p>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button"class="btn btn-default">
-                            <span class="d-none d-md-inline">Details</span>
-                            <i class="d-md-none material-icons">info</i>
-                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
