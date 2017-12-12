@@ -10,7 +10,7 @@ section, article, div {
 /* apply formatting to all images inside portfolio thumbnails  */
 .item {
  	border-style: solid;
-	border-color:#41484c;
+	border-color: rgba(0,0,0,0.05)
 	border-width: .1em;	
 }
 
